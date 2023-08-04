@@ -58,11 +58,8 @@ GeoDT
 Installation
 ============
 
-::
 
-    pip install geodt
-
-You can also install the in-development version with::
+You can install the in-development version with::
 
     pip install https://github.com/softwareengineerprogrammer/python-geodt/archive/main.zip
 
