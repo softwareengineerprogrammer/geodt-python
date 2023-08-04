@@ -11,7 +11,7 @@ class GeoDTTest(unittest.TestCase):
     def output_path(self, file_name, output_dir='build/test_geodt'):
         output_path = Path(Path.absolute(Path(__file__)).parent.parent, output_dir)
 
-        if not output_path.parent.exists():
+        if not output_path.exists():
             output_path.mkdir(parents=True)
 
         return str(Path(output_path, file_name))
