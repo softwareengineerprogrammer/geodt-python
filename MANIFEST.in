@@ -21,5 +21,4 @@ include README.rst
 
 global-exclude *.py[cod] __pycache__/* *.so *.dylib
 
-#recursive-include build *.gitkeep
-include build/test_geodt/.gitkeep
+recursive-include build *.gitkeep

@@ -64,16 +64,12 @@ jobs:
             python_arch: 'x64'
             tox_env: 'py311'
             os: 'ubuntu-latest'
-
-            # FIXME: fails with "FAILED tests/test_geodt.py::GeoDTTest::test_geodt - scipy.linalg._misc.LinAlgWarning:
-            # Ill-conditioned matrix (rcond=1.06439e-16): result may not be accurate."
-#          - name: 'py311 (windows)'
-#            python: '3.11'
-#            toxpython: 'python3.11'
-#            python_arch: 'x64'
-#            tox_env: 'py311'
-#            os: 'windows-latest'
-
+          - name: 'py311 (windows)'
+            python: '3.11'
+            toxpython: 'python3.11'
+            python_arch: 'x64'
+            tox_env: 'py311'
+            os: 'windows-latest'
           - name: 'py311 (macos)'
             python: '3.11'
             toxpython: 'python3.11'
