@@ -63,6 +63,12 @@ setup(
     python_requires='>=3.7',
     install_requires=[
         # eg: "aspectlib==1.1.1", "six>=1.7",
+        'numpy~=1.25.1',
+        'matplotlib~=3.7.2',
+        'scipy~=1.11.1',
+        'sklearn~=0.0.post7',
+        'iapws~=1.5.3',
+        'ipywidgets~=8.0.7',
     ],
     extras_require={
         # eg:
