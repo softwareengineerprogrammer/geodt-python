@@ -21,7 +21,8 @@ __pycache__
 .installed.cfg
 .ve
 bin
-build
+build/*
+!build/test_geodt/.gitkeep
 develop-eggs
 dist
 eggs
