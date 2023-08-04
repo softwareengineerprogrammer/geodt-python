@@ -8,8 +8,13 @@ from geodt import Mesh
 
 
 class GeoDTTest(unittest.TestCase):
-    def output_path(self, file_name, output_dir='build'):
-        return str(Path(Path.absolute(Path(__file__)).parent.parent, output_dir, file_name))
+    def output_path(self, file_name, output_dir='build/test_geodt'):
+        output_path = Path(Path.absolute(Path(__file__)).parent.parent, output_dir)
+
+        if not output_path.parent.exists():
+            output_path.mkdir(parents=True)
+
+        return str(Path(output_path, file_name))
 
     def test_geodt(self):
         # ****************************************************************************
