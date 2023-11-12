@@ -3,8 +3,6 @@ __version__ = '0.0.0'
 # -*- coding: utf-8 -*-
 import iapws.iapws97
 
-print('GeoDT_3.8.3')
-
 # ****************************************************************************
 # Calculate economic potential of EGS & optimize borehole layout with caging
 # Author: Luke P. Frash
@@ -4333,6 +4331,7 @@ class Mesh:
 #### main program
 # ****************************************************************************
 if __name__ == '__main__':  # main program
+    print('GeoDT_3.8.3')
     # create mesh object (the model)
     #    mnode = []
     #    mpipe = []
